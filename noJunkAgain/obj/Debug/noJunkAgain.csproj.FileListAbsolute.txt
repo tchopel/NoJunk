@@ -26,3 +26,31 @@ c:\users\tseri_000\documents\visual studio 2013\Projects\noJunkAgain\noJunkAgain
 c:\users\tseri_000\documents\visual studio 2013\Projects\noJunkAgain\noJunkAgain\obj\Debug\noJunkAgain.csprojResolveAssemblyReference.cache
 c:\users\tseri_000\documents\visual studio 2013\Projects\noJunkAgain\noJunkAgain\obj\Debug\noJunkAgain.dll
 c:\users\tseri_000\documents\visual studio 2013\Projects\noJunkAgain\noJunkAgain\obj\Debug\noJunkAgain.pdb
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\noJunkAgain.dll.config
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\noJunkAgain.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\noJunkAgain.pdb
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\Newtonsoft.Json.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Net.Http.Formatting.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.Helpers.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.Http.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.Http.WebHost.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.Mvc.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.Razor.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.WebPages.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\Newtonsoft.Json.xml
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Net.Http.Formatting.xml
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.Helpers.xml
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.Http.xml
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.Http.WebHost.xml
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.Mvc.xml
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.Razor.xml
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.WebPages.xml
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\obj\Debug\noJunkAgain.csprojResolveAssemblyReference.cache
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\obj\Debug\noJunkAgain.dll
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\obj\Debug\noJunkAgain.pdb
