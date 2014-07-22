@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+@section Styles {
+    <link href="~/Css/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+    <link href="~/Css/PortFolio.css" rel="stylesheet" />
+}
+<div id="tabs">
+    <ul>
+        <li>
+            <a href="#a">Portfolio</a>
+        </li>
+        <li>
+            <a href="#b">Resume</a>
+        </li>
+        <li>
+            <a href="#c">Contacts</a>
+        </li>
+        <li>
+            <a href="#d">misc</a>
+        </li>
+    </ul>
+    <div id="a">
+        Content of A
+    </div>
+    <div id="b">
+        Content of B
+    </div>
+    <div id="c">
+        Content of C
+    </div>
+    <div id="d">
+        Content of D
+    </div>
+</div>
+
+
+@section scripts {
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery-ui-1.10.4.custom.js"></script>
+    <script src="~/Scripts/portFolio.js"></script>
+}

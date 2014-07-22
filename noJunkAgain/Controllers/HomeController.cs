@@ -9,9 +9,14 @@ namespace noJunkAgain.Controllers
     public class HomeController : Controller
     {
        
-        public string Index()
+        public ActionResult Index() //home page and portfolio by default
         {
-            return "hello from mvc application:";
+            return View();
+        }
+
+        public ActionResult Resume()
+        {
+            return View();
         }
 
     }

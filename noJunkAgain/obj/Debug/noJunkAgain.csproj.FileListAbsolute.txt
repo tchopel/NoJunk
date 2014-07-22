@@ -54,3 +54,4 @@ C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\System.Web.We
 C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\obj\Debug\noJunkAgain.csprojResolveAssemblyReference.cache
 C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\obj\Debug\noJunkAgain.dll
 C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\obj\Debug\noJunkAgain.pdb
+C:\Users\Tsering\Desktop\gitProjects\noJunk\NoJunk\noJunkAgain\bin\Css\jquery-ui-1.10.4.custom.css
