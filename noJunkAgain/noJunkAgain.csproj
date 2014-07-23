@@ -118,7 +118,13 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Css\css\bootstrap-theme.css" />
+    <Content Include="Css\css\bootstrap-theme.min.css" />
+    <Content Include="Css\css\bootstrap.css" />
+    <Content Include="Css\css\bootstrap.min.css" />
+    <Content Include="Css\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Css\images\animated-overlay.gif" />
+    <Content Include="Css\images\Capture.PNG" />
     <Content Include="Css\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
     <Content Include="Css\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
     <Content Include="Css\images\ui-bg_flat_10_000000_40x100.png" />
@@ -137,7 +143,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Css\PortFolio.css" />
+    <Content Include="Css\Resume.css" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-ui-1.10.4.custom.js" />
     <Content Include="Scripts\PortFolio.js" />
@@ -168,6 +176,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Resume.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Resume2.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Css\css\bootstrap-theme.css.map" />
+    <Content Include="Css\css\bootstrap.css.map" />
+    <Content Include="Css\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Css\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Css\fonts\glyphicons-halflings-regular.woff" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -19,5 +19,10 @@ namespace noJunkAgain.Controllers
             return View();
         }
 
+        public ActionResult Resume2()
+        {
+            return View(); 
+        }
+
     }
 }

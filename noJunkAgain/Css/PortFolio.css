@@ -42,9 +42,6 @@ fieldset legend {
     line-height: 30px;
 }
 
-.ui-widget-content {
-    height: 85%;
-}
 
 .ui-tabs{
     padding:0em !important;
