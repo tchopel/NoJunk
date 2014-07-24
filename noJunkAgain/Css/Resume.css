@@ -1,21 +1,61 @@
-﻿
-
-.row{
-   border-bottom: 1px solid grey;
-   height: 200px;
+﻿* {
+  margin: 0;
+  padding: 0;
 }
 
+*{
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+img {
+  background: url('loading.gif') no-repeat;
+}
+
+
+
 #firstRow{
+    border-bottom: 1px solid #D9D6CC;
     margin:0px;
-    padding:0px;
+    padding:30px;
+    background-color:#F0EEE6;
 }
 
 #firstRow img{
-    height:auto; width:auto; max-width:100px; max-height:100px;
-    margin-top:30px;
-    margin-left: 40px;
+    max-width:100%; 
+    max-height:150px;
+    margin:auto;
+}
+
+#forImgPadding{
+    background-color: white;
+    padding:5px;
+    border:1px solid #D9D6CC;
 }
 
 #nameMargin{
     margin-top: 40px;
+}
+
+small{
+    margin: 4px;
+}
+
+.basket{
+    background-color:white;
+    padding:30px;
+}
+
+.rowInBasket{
+    border-bottom: 1px solid #D9D6CC;
+    padding:20px;
+}
+
+ul#interest {
+    list-style-type: none;
+}
+
+pre{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size:inherit;
+    word-wrap:normal;
 }
