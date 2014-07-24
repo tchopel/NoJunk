@@ -17,7 +17,9 @@ img {
     border-bottom: 1px solid #D9D6CC;
     margin:0px;
     padding:30px;
-    background-color:#F0EEE6;
+    /*background-color:#F0EEE6;#4F4C9E*/
+    background-color:#29446E;
+    color:white;
 }
 
 #firstRow img{
@@ -30,6 +32,16 @@ img {
     background-color: white;
     padding:5px;
     border:1px solid #D9D6CC;
+}
+
+.paragraphHeadings{
+    background-color: white;
+    padding:5px;
+    border:1px solid #D9D6CC;
+    padding-left:100px;
+    background-color:#A9A6B4;
+    /*background-color:#DAD7C6;*/
+    color:#241B4C;
 }
 
 #nameMargin{
@@ -50,7 +62,7 @@ small{
     padding:20px;
 }
 
-ul#interest {
+ul{
     list-style-type: none;
 }
 
@@ -59,3 +71,8 @@ pre{
     font-size:inherit;
     word-wrap:normal;
 }
+
+div>h4{
+    font-weight:bold;
+}
+
