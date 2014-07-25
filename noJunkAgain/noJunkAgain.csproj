@@ -125,11 +125,13 @@
     <Content Include="Css\css\bootstrap.min.css" />
     <Content Include="Css\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Css\images\animated-overlay.gif" />
+    <Content Include="Css\images\cell.jpg" />
     <Content Include="Css\images\contact.png" />
+    <Content Include="Css\images\facebookCAJ2LQD7.png" />
     <Content Include="Css\images\facebook_icon_30x30.gif" />
-    <Content Include="Css\images\imageedit_15_5224411923.gif" />
     <Content Include="Css\images\ln16.png" />
-    <Content Include="Css\images\small_black_triangle_down.gif" />
+    <Content Include="Css\images\Mail_Icon_rot.png" />
+    <Content Include="Css\images\phone_icon_small.png" />
     <Content Include="Css\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
     <Content Include="Css\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
     <Content Include="Css\images\ui-bg_flat_10_000000_40x100.png" />

@@ -54,17 +54,31 @@
     margin-bottom:15px;
     margin-top:15px;
     padding-left:33px;
+    color:#C1DAFF;
+    height:28px;
 }
 
 .facebook {
-    background: url(./images/facebook_icon_30x30.gif) no-repeat;
+    background: url(./images/facebookCAJ2LQD7.png) no-repeat;
 }
 
 .linkedIn{
     background:url(./images/ln16.png) no-repeat;
 }
 
-label, .right, ul{
+.cellPhone{
+    background:url(./images/cell.jpg) no-repeat;
+}
+
+.homePhone{
+    background:url(./images/phone_icon_small.png) no-repeat;
+}
+
+.email{
+    background:url(./images/Mail_Icon_rot.png) no-repeat;
+}
+
+label, .right{
     font-family: "Trebuchet MS", Verdana, Sans-Serif;
     color:#C1DAFF;
 }
@@ -79,5 +93,5 @@ a:hover, a:focus {
 }
 
 #contactParagraph{
-    font-weight:bold;
+    font-weight:bolder;
 }
