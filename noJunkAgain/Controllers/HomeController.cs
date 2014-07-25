@@ -24,5 +24,10 @@ namespace noJunkAgain.Controllers
             return View(); 
         }
 
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
     }
 }

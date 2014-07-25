@@ -8,7 +8,7 @@
 }
 
 img {
-  background: url('loading.gif') no-repeat;
+  /*background: url('')*/
 }
 
 
@@ -24,7 +24,6 @@ img {
 
 #firstRow img{
     max-width:100%; 
-    max-height:150px;
     margin:auto;
 }
 
@@ -76,3 +75,12 @@ div>h4{
     font-weight:bold;
 }
 
+
+.ui-tabs-nav{
+    border-bottom:5px solid white;
+}
+
+.ui-state-active{
+    /*background: url(~/Css/images/small_black_triangle_down.gif) no-repeat center 30px !important;*/
+    outline-color:none !important;
+}
