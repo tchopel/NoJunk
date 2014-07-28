@@ -1,0 +1,62 @@
+﻿body{
+    position:absolute;
+    left:5px;
+    right:5px;
+    top:5px;
+    bottom:5px;
+    background-color:none; 
+    border-top:none;
+}
+
+#body, section{
+    position:absolute;
+    left:5px;
+    right:5px;
+    top:5px;
+    bottom:5px;
+}
+
+#body {
+    background-color:none;
+    clear: both; 
+    padding-bottom: 0px; 
+    height: 100%;
+}
+
+fieldset {
+    border: 0px solid black;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:5px;
+    right:5px;
+    top:5px;
+    bottom:5px;
+}
+
+fieldset legend {
+    text-align:center;
+    display: block;
+    color:#00f;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.ui-tabs{
+    padding:0em !important;
+}
+
+.ui-tabs-nav {
+    padding:0em !important;
+}
+
+.ui-widget-content{
+    padding:0px !important;
+}
+ #ui-tabs-2 #ui-tabs-3 #ui-tabs-4 #ui-tabs-5 #ui-tabs-6 #ui-tabs-1{
+    border-bottom:5px solid black;
+    border-left:5px solid black;
+    border-right:5px solid black;
+}
+

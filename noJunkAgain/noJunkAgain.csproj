@@ -150,14 +150,17 @@
     <Content Include="Css\jquery-ui-1.10.4.custom.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Css\PortFolio.css" />
+    <Content Include="Css\Index.css" />
+    <Content Include="Css\Portfolio.css" />
     <Content Include="Css\Resume.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\Contacts.js" />
+    <Content Include="Scripts\forNotes.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-ui-1.10.4.custom.js" />
-    <Content Include="Scripts\PortFolio.js" />
+    <Content Include="Scripts\Index.js" />
+    <Content Include="Scripts\Portfolio.js" />
     <Content Include="Scripts\resume.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -199,6 +202,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Contact.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Portfolio.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

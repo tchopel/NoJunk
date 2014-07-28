@@ -13,7 +13,7 @@ namespace noJunkAgain.Controllers
         {
             return View();
         }
-
+         
         public ActionResult Resume()
         {
             return View();
@@ -26,6 +26,11 @@ namespace noJunkAgain.Controllers
 
 
         public ActionResult Contact()
+        {
+            return View();
+        }
+
+        public ActionResult Portfolio()
         {
             return View();
         }
