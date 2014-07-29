@@ -8,7 +8,7 @@
     b.@html.actionLink(a,b,c,new {sortBy = "video: url "}, null)
     c.@html.display();
     d. httpGet and httpPost attribute, how do they work
-    e. 
+    e. @html.partials
 
 
 5. kenjo.mvc in reference and kendo.js for client side, how do they integrate, @html.kendo ? 

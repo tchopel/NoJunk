@@ -162,6 +162,8 @@
     <Content Include="Scripts\Index.js" />
     <Content Include="Scripts\Portfolio.js" />
     <Content Include="Scripts\resume.js" />
+    <Content Include="Scripts\slidr.js" />
+    <Content Include="Scripts\slidr.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -205,6 +207,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Portfolio.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\projectRobot.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\bellProject.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\chatProject.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
