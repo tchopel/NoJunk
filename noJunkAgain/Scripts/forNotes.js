@@ -17,7 +17,7 @@
 8. request object in asp.net mvc, and global.asax and web.config and packages.config and another web.config inside shared folder
 9. how to debug js. inside asp.net mvc
 10. learn how to use intern explorer dev tools
-11. 
+11. yahoo.com, mangareader.net, nwanime.com, bbc.com, hotmail.com, gmail.com, google.com, 
 
 
 */
