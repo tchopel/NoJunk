@@ -1,6 +1,12 @@
-﻿
+﻿/// <reference path="../Views/Home/_projectBell.cshtml" />
+
 jQuery(document).ready(function () {
-    $('#targetContainer').load('/Shared/projectRobot.cshtml');
+    
+    $("#targetContainer").load(, function () {
+
+        alert("Load was performed.");
+
+    });
 })
 
 function loadSlideDiv(id) {

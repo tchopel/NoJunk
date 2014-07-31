@@ -157,6 +157,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\Contacts.js" />
     <Content Include="Scripts\forNotes.js" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-ui-1.10.4.custom.js" />
     <Content Include="Scripts\Index.js" />
@@ -164,6 +165,7 @@
     <Content Include="Scripts\resume.js" />
     <Content Include="Scripts\slidr.js" />
     <Content Include="Scripts\slidr.min.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -209,13 +211,13 @@
     <Content Include="Views\Home\Portfolio.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Shared\projectRobot.cshtml" />
+    <Content Include="Views\Home\projectBell.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Shared\bellProject.cshtml" />
+    <Content Include="Views\Home\projectChat.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Shared\chatProject.cshtml" />
+    <Content Include="Views\Home\projectRobotic.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

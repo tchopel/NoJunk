@@ -34,5 +34,20 @@ namespace noJunkAgain.Controllers
         {
             return View();
         }
+
+        public ActionResult projectBell()
+        {
+            return View();
+        }
+
+        public ActionResult projectChat()
+        {
+            return View();
+        }
+
+        public ActionResult projectRobotic()
+        {
+            return View();
+        }
     }
 }
