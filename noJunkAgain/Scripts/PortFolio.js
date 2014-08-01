@@ -2,11 +2,11 @@
 
 jQuery(document).ready(function () {
     
-    $("#targetContainer").load(, function () {
+    //$("#targetContainer").load("", function () {
 
-        alert("Load was performed.");
+    //    alert("Load was performed.");
 
-    });
+    //});
 })
 
 function loadSlideDiv(id) {

@@ -20,4 +20,11 @@
 11. yahoo.com, mangareader.net, nwanime.com, bbc.com, hotmail.com, gmail.com, google.com, 
 
 
+
+
+To Do list
+1. need to learn more about pseudo elements, specially :before and :after keywords. they can be useful for putting icons before links
+    instead of putting images in the background.  link of interest: http://nicolasgallagher.com/pure-css-gui-icons/. 
+2. 
+
 */
