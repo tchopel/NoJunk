@@ -1,10 +1,12 @@
-﻿#bootStrapContainer{
-    position:relative;
-}
+﻿/*#bootStrapContainer{
+    margin-left:50%;
+    margin-top:10%;
+}*/
 
 #TheRow{
-    /*position:absolute;
-    top:50%;*/
+    position:absolute;
+    margin-top:10%;
+    margin-left:10%;
 }
 
 #centerColumn{
@@ -22,14 +24,13 @@
     width:0px !important;
     padding-left:0px;
     background-color:red;  
-    height:100px; 
+    height:200px; 
 }
 
-#leftNav span, #rightNav span{
+/*#leftNav span, #rightNav span{
     position:absolute;
-    margin-top:100%;
     background-color:grey;
-}
+}*/
 
 .Absolute-Center{
     margin-left:10%;
