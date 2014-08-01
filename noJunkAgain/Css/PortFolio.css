@@ -4,6 +4,10 @@
 }*/
 
 #TheRow{
+    position:relative;
+}
+
+#bootStrapContainer{
     position:absolute;
     margin-top:10%;
     margin-left:10%;
@@ -23,14 +27,14 @@
 #leftNav, #rightNav{
     width:0px !important;
     padding-left:0px;
-    background-color:red;  
-    height:200px; 
+    
+
 }
 
-/*#leftNav span, #rightNav span{
-    position:absolute;
-    background-color:grey;
-}*/
+#leftNav span, #rightNav span{
+    position:relative;
+    background-color:white;  
+}
 
 .Absolute-Center{
     margin-left:10%;
