@@ -2,12 +2,6 @@
 
 $(function () {
     
-    //$("#targetContainer").load("", function () {
-
-    //    alert("Load was performed.");
-
-    //});
-
     var tabContainerId = $('#bootStrapContainer').parent().attr('id');
     var absolutedContainerHeight = $('#bootStrapContainer').height();
     var marginOfAbsolutedContainerHeight = $('#bootStrapContainer').css('margin-top');
@@ -31,31 +25,37 @@ $(function () {
     console.log("span top : " + parseFloat(marginOfAbsolutedContainerHeight) / 2);
 
     $('#leftNav span, #rightNav span').click(function () {
-        alert("span clicked");
+        var url = "@Url.Action(\"projectRobotic\", \"Home\", null, Request.Url.Scheme);"
+        $("#centerColumn").load("/Home/projectBell", function (responseText, statusText, xhr) {
+            if (statusText == "success")
+                alert("Successfully loaded the content!");
+            if (statusText == "error")
+                alert("An error occurred: " + xhr.status + " - " + xhr.statusText);
+        });
     });
 
-    $(document).keydown(function (e) {
-        switch (e.which) {
-            case 37: // left
-                alert("left pressed");
-                break;
+    //$(document).keydown(function (e) {
+    //    switch (e.which) {
+    //        case 37: // left
+    //            alert("left pressed");
+    //            break;
 
-            case 38: // up
-                alert("up pressed");
-                break;
+    //        case 38: // up
+    //            alert("up pressed");
+    //            break;
 
-            case 39: // right
-                alert("right pressed");
-                break;
+    //        case 39: // right
+    //            alert("right pressed");
+    //            break;
 
-            case 40: // down
-                alert("down pressed");
-                break;
+    //        case 40: // down
+    //            alert("down pressed");
+    //            break;
 
-            default: return; // exit this handler for other keys
-        }
-        e.preventDefault(); // prevent the default action (scroll / move caret)
-    });
+    //        default: return; // exit this handler for other keys
+    //    }
+    //    e.preventDefault(); // prevent the default action (scroll / move caret)
+    //});
 });
 
 function loadSlideDiv(id) {
