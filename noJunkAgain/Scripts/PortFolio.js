@@ -4,16 +4,31 @@ $(function () {
 
     fixDimensions();
 
-    loadPortfolio();
+    urlArry = ['/Home/projectBell', '/Home/projectRobotic', '/Home/projectChat']; //need to make this global variable
+    currentIndex = 0;
+    bindClickForslide();
 
 
 });
 
 
-function loadPortfolio() {
+function bindClickForslide() {
     $('#leftNav span').click(function () {
-        var url = "@Url.Action(\"projectRobotic\", \"Home\", null, Request.Url.Scheme);"
-        $("#centerColumn").load("/Home/projectBell", function (responseText, statusText, xhr) {
+
+        if (currentIndex == 0) {
+            currentIndex = 2;
+            var url = urlArry[currentIndex];
+        } else
+        {
+            currentIndex--;
+            var url = urlArry[currentIndex];
+        }
+
+        $("#centerColumn").hide(0).delay(0).toggle('slide', {
+            direction: 'left'
+        }, 500);
+        
+        $("#centerColumn").load(url, function (responseText, statusText, xhr) {
             if (statusText == "success")
                 fixDimensions();
             if (statusText == "error")
@@ -24,13 +39,29 @@ function loadPortfolio() {
 
 
     $('#rightNav span').click(function () {
-        var url = "@Url.Action(\"projectRobotic\", \"Home\", null, Request.Url.Scheme);"
-        $("#centerColumn").load("/Home/projectBell", function (responseText, statusText, xhr) {
+
+        if (currentIndex == 2) {
+            currentIndex = 0;
+            var url = urlArry[currentIndex];
+        } else {
+            currentIndex++;
+            var url = urlArry[currentIndex];
+        }
+
+        $("#centerColumn").slideRight("slow").load(url, function (responseText, statusText, xhr) {
+            $(this).animate({ 'left': 'show' });
             if (statusText == "success")
                 fixDimensions();
             if (statusText == "error")
                 alert("An error occurred: " + xhr.status + " - " + xhr.statusText);
         });
+
+        //$("#centerColumn").load(url, function (responseText, statusText, xhr) {
+        //    if (statusText == "success")
+        //        fixDimensions();
+        //    if (statusText == "error")
+        //        alert("An error occurred: " + xhr.status + " - " + xhr.statusText);
+        //});
         //setTimeout(function () { fixDimensions() }, 100);
     });
 }
