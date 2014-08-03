@@ -163,9 +163,9 @@
     <Content Include="Scripts\Index.js" />
     <Content Include="Scripts\Portfolio.js" />
     <Content Include="Scripts\resume.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="Scripts\slidr.js" />
     <Content Include="Scripts\slidr.min.js" />
-    <None Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

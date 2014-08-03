@@ -9,7 +9,7 @@
 <div id="tabs">
     <ul>
         <li>
-            <a href="#a">About Me</a>
+            <a href="#mainTab">About Me</a>
         </li>
         <li>
             <a href="/Home/Portfolio">PortFolio</a>
@@ -24,9 +24,19 @@
             <a href="#d">Misc.</a>
         </li>
     </ul>
-    <div id="a">
-        Content of A
+    <div id="mainTab">
+        <div id="slidr">
+            <div id="slidr-home" class="demo-slides">
+                <div style="background-color: #2aca76;" data-slidr="one">@{Html.RenderPartial("projectChat");}</div>
+                <div style="background-color: #69bfe9;" data-slidr="two">@{Html.RenderPartial("projectBell");}</div>
+                <div style="background-color: #fa7979;" data-slidr="three">@{Html.RenderPartial("projectRobotic");}</div>
+                <div style="background-color: #a685ca;" data-slidr="four">@{Html.RenderPartial("Resume");}</div>
+                <div style="background-color: #fee687;" data-slidr="five">@{Html.RenderPartial("Resume2");}</div>
+                <div style="background-color: #ed956e;" data-slidr="six">@{Html.RenderPartial("projectChat");}</div>
+            </div>
+        </div>
     </div>
+   
    
 </div>
 
