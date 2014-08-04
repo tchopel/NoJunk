@@ -132,6 +132,8 @@
     <Content Include="Css\images\ln16.png" />
     <Content Include="Css\images\Mail_Icon_rot.png" />
     <Content Include="Css\images\phone_icon_small.png" />
+    <Content Include="Css\images\tafe1.PNG" />
+    <Content Include="Css\images\tafe2.PNG" />
     <Content Include="Css\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
     <Content Include="Css\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
     <Content Include="Css\images\ui-bg_flat_10_000000_40x100.png" />
@@ -152,6 +154,7 @@
     </Content>
     <Content Include="Css\Index.css" />
     <Content Include="Css\Portfolio.css" />
+    <Content Include="Css\projectBell.css" />
     <Content Include="Css\Resume.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
@@ -162,6 +165,7 @@
     <Content Include="Scripts\jquery-ui-1.10.4.custom.js" />
     <Content Include="Scripts\Index.js" />
     <Content Include="Scripts\Portfolio.js" />
+    <Content Include="Scripts\projectBell.js" />
     <Content Include="Scripts\resume.js" />
     <None Include="Scripts\_references.js" />
     <Content Include="Scripts\slidr.js" />

@@ -1,18 +1,11 @@
 ﻿
-#mainTab{
+#slidr{
     background-color: #1F6597;
     padding-top:10% !important;
+    padding-left:10% !important;
 }
 
-/*#slidr{
-    width: 50%;
-    margin: 0 auto;
-}
-#slidr>div {
-    width: 100%;
-    height: 100%;
-}
-.demo-slides div{width:100%;padding: 5px; height:100%}*/
+
 
 
 .ui-tabs{
