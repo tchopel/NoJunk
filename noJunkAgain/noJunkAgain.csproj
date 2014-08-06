@@ -132,6 +132,8 @@
     <Content Include="Css\images\ln16.png" />
     <Content Include="Css\images\Mail_Icon_rot.png" />
     <Content Include="Css\images\phone_icon_small.png" />
+    <Content Include="Css\images\scaledtafe1.PNG" />
+    <Content Include="Css\images\scaledtafe2.PNG" />
     <Content Include="Css\images\tafe1.PNG" />
     <Content Include="Css\images\tafe2.PNG" />
     <Content Include="Css\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
