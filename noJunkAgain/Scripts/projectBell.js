@@ -1,25 +1,31 @@
 ﻿
 $('#imgDiv img').click(function () {
     $img = $(this);
-
+    $('#bellContainer').parent().css('z-index', -1);
     $('<img />', {
         'src': $img.attr('src'),
         'class': 'larger',
-        'z-index': 0
+        'z-index': 3
     }).load(function () {
         $(this)
             .appendTo('body')
+            .position({
+                "of": '#bellContainer',
+                "my": "center center",
+                "at": "center center",
+                "collision": "fit"
+            })
             .animate({
-                width: 500
+                width: 900
             },
             {
-                'duration': 1500,
+                'duration': 1000,
                 'easing': 'easeOutQuad',
                 'step': function (i) {
                     $(this).position({
-                        "of": $img,
-                        "my": "right top",
-                        "at": "left bottom",
+                        "of": '#bellContainer',
+                        "my": "center center",
+                        "at": "center center",
                         "collision": "fit"
                     });
                 }
@@ -28,12 +34,14 @@ $('#imgDiv img').click(function () {
 });
 
 $('body').on('click', '.larger', function () {
-    $el = $(this);
-    $el.fadeOut('slow', function () {
-        $el.remove();
+    $('.larger').fadeOut('slow', function () {
+        $('.larger').remove();
+        $('#bellContainer').parent().css('z-index', 1);
     });
 });
 
+
+$("#bellAccordion").accordion();
 
 
 
