@@ -127,8 +127,10 @@
     <Content Include="Css\images\animated-overlay.gif" />
     <Content Include="Css\images\cell.jpg" />
     <Content Include="Css\images\contact.png" />
+    <Content Include="Css\images\DSC_0030.JPG" />
     <Content Include="Css\images\facebookCAJ2LQD7.png" />
     <Content Include="Css\images\facebook_icon_30x30.gif" />
+    <Content Include="Css\images\finalProject.png" />
     <Content Include="Css\images\ln16.png" />
     <Content Include="Css\images\Mail_Icon_rot.png" />
     <Content Include="Css\images\phone_icon_small.png" />
@@ -136,6 +138,7 @@
     <Content Include="Css\images\scaledtafe2.PNG" />
     <Content Include="Css\images\tafe1.PNG" />
     <Content Include="Css\images\tafe2.PNG" />
+    <Content Include="Css\images\theFinalFinalVersion.png" />
     <Content Include="Css\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
     <Content Include="Css\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
     <Content Include="Css\images\ui-bg_flat_10_000000_40x100.png" />
@@ -157,6 +160,7 @@
     <Content Include="Css\Index.css" />
     <Content Include="Css\Portfolio.css" />
     <Content Include="Css\projectBell.css" />
+    <Content Include="Css\projectRobotic.css" />
     <Content Include="Css\Resume.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
@@ -168,6 +172,7 @@
     <Content Include="Scripts\Index.js" />
     <Content Include="Scripts\Portfolio.js" />
     <Content Include="Scripts\projectBell.js" />
+    <Content Include="Scripts\projectRobotic.js" />
     <Content Include="Scripts\resume.js" />
     <None Include="Scripts\_references.js" />
     <Content Include="Scripts\slidr.js" />

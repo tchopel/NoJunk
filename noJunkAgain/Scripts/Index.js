@@ -1,8 +1,8 @@
 ﻿$(function () {
     $("#tabs").tabs();
     var windowHeight = jQuery(window).height() * .94;
-    $('#a, #ui-tabs-2, #ui-tabs-3, #ui-tabs-4, #ui-tabs-5, #ui-tabs-6, #ui-tabs-1').css('min-height', windowHeight + 'px');
     $('#slidr').css('min-height', windowHeight + 'px');
+    //$('#slidr-home').css('max-Width', window.innerWidth + 'px');
 
 
     slidr.create('slidr-home', {
@@ -25,7 +25,6 @@
         touch: true,
         transition: 'cube'
     }).add('h', ['one', 'two', 'three','four', 'five', 'six', 'one']).start();
-
 
 });
 
