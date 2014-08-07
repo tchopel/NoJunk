@@ -1,7 +1,6 @@
 ﻿#roboticContainer{
-    max-width:800px;
+    max-width:700px;
     max-height:500px;
-    background-color:blue;
     padding-bottom:20px;
     
 }
@@ -12,5 +11,6 @@
 
 #roboticContainer img{
     max-width:100%; 
+    margin-bottom:20px;
 }
 
