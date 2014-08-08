@@ -1,8 +1,8 @@
 ﻿
 
-$('#RoboticImgDiv img').click(function () {
+$('#roboticImgContainer img').click(function () {
     $img = $(this);
-    $('#roboticContainer').parent().css('z-index', -1);
+    $('#roboticImgContainer').parent().css('z-index', -1);
     $('<img />', {
         'src': $img.attr('src'),
         'class': 'RoboticLarger',
@@ -11,20 +11,20 @@ $('#RoboticImgDiv img').click(function () {
         $(this)
             .appendTo('body')
             .position({
-                "of": $('#roboticContainer'),
+                "of": $('#roboticVidContainer'),
                 "my": "center center",
                 "at": "center center",
                 "collision": "fit"
             })
             .animate({
-                width: 900
+                width: 500
             },
             {
                 'duration': 1000,
                 'easing': 'easeOutQuad',
                 'step': function (i) {
                     $(this).position({
-                        "of": $('#roboticContainer'),
+                        "of": $('#roboticVidContainer'),
                         "my": "center center",
                         "at": "center center",
                         "collision": "fit"
@@ -37,7 +37,7 @@ $('#RoboticImgDiv img').click(function () {
 $('body').on('click', '.RoboticLarger', function () {
     $('.RoboticLarger').fadeOut('slow', function () {
         $('.RoboticLarger').remove();
-        $('#roboticContainer').parent().css('z-index', 1);
+        $('#roboticImgContainer').parent().css('z-index', 1);
     });
 });
 

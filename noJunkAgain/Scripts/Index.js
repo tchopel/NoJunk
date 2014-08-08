@@ -17,13 +17,13 @@
         breadcrumbs: true,
         controls: 'border',
         direction: 'horizontal',
-        fade: true,
+        fade: false,
         keyboard: true,
         overflow: true,
         theme: 'white',
-        timing: { 'cube': '1.5s ease-in' },
+        timing: { 'linear': '1s ease-in' },
         touch: true,
-        transition: 'cube'
+        transition: 'linear'
     }).add('h', ['one', 'two', 'three','four', 'five', 'six', 'one']).start();
 
 });
