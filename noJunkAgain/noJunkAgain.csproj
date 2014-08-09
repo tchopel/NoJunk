@@ -177,6 +177,7 @@
     <None Include="Scripts\_references.js" />
     <Content Include="Scripts\slidr.js" />
     <Content Include="Scripts\slidr.min.js" />
+    <Content Include="station2Converted.mp4" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

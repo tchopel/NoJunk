@@ -20,7 +20,7 @@
         fade: false,
         keyboard: true,
         overflow: true,
-        theme: 'white',
+        theme: 'green',
         timing: { 'linear': '1s ease-in' },
         touch: true,
         transition: 'linear'

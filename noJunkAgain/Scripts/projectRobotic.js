@@ -41,6 +41,15 @@ $('body').on('click', '.RoboticLarger', function () {
     });
 });
 
+$('video').on('play', function () {
+    this.playbackRate = 3.0;
+});
+
+$('video').on('seeked', function () {
+    this.playbackRate = 3.0;
+    alert('seeked');
+});
+
 
 
 
