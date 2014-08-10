@@ -128,11 +128,15 @@
     <Content Include="Css\images\cell.jpg" />
     <Content Include="Css\images\contact.png" />
     <Content Include="Css\images\DSC_0030.JPG" />
+    <Content Include="Css\images\eclipseProject.PNG" />
     <Content Include="Css\images\facebookCAJ2LQD7.png" />
     <Content Include="Css\images\facebook_icon_30x30.gif" />
     <Content Include="Css\images\finalProject.png" />
+    <Content Include="Css\images\javaproj.PNG" />
+    <Content Include="Css\images\javaProject.PNG" />
     <Content Include="Css\images\ln16.png" />
     <Content Include="Css\images\Mail_Icon_rot.png" />
+    <Content Include="Css\images\onlytwochatwindow.PNG" />
     <Content Include="Css\images\phone_icon_small.png" />
     <Content Include="Css\images\scaledtafe1.PNG" />
     <Content Include="Css\images\scaledtafe2.PNG" />

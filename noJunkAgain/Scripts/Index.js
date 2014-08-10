@@ -17,7 +17,7 @@
         breadcrumbs: true,
         controls: 'border',
         direction: 'horizontal',
-        fade: false,
+        fade: true,
         keyboard: true,
         overflow: true,
         theme: 'green',
