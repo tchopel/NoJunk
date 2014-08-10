@@ -5,12 +5,12 @@
     
 }
 
-#roboticTitle{
-    text-align:center;
+#roboticVidContainer{
+    padding-left:30px;
+    width:100%;
 }
 
-#roboticContainer img{
-    max-width:100%; 
-    margin-bottom:20px;
+#roboticTitle{
+    text-align:center;
 }
 
