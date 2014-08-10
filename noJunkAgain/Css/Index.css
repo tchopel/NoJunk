@@ -4,11 +4,14 @@
     padding-top:5% !important;
     padding-left:10% !important;
     padding-right:10% !important;
-    padding-bottom:5% !important;
 }
 
 .slidrContainer{
     padding:10px;
+}
+
+.slidrContainer>h3{
+    text-align:center;
 }
 
 

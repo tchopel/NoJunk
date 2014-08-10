@@ -49,5 +49,10 @@ namespace noJunkAgain.Controllers
         {
             return View();
         }
+
+        public ActionResult projectPersonalSite()
+        {
+            return View();
+        }
     }
 }

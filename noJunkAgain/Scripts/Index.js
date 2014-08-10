@@ -24,7 +24,7 @@
         timing: { 'linear': '1s ease-in' },
         touch: true,
         transition: 'linear'
-    }).add('h', ['one', 'two', 'three','four', 'five', 'six', 'one']).start();
+    }).add('h', ['one', 'two', 'three','four', 'five', 'one']).start();
 
 });
 
