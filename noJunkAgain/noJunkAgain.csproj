@@ -144,6 +144,7 @@
     <Content Include="Css\images\phone_icon_small.png" />
     <Content Include="Css\images\scaledtafe1.PNG" />
     <Content Include="Css\images\scaledtafe2.PNG" />
+    <Content Include="Css\images\spinSample.PNG" />
     <Content Include="Css\images\tafe1.PNG" />
     <Content Include="Css\images\tafe2.PNG" />
     <Content Include="Css\images\theFinalFinalVersion.png" />
@@ -181,6 +182,7 @@
     <Content Include="Scripts\Portfolio.js" />
     <Content Include="Scripts\projectBell.js" />
     <Content Include="Scripts\projectChat.js" />
+    <Content Include="Scripts\projectPersonalSite.js" />
     <Content Include="Scripts\projectRobotic.js" />
     <Content Include="Scripts\resume.js" />
     <None Include="Scripts\_references.js" />

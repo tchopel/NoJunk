@@ -6,7 +6,8 @@ $('#imgDiv img').click(function () {
         'src': $img.attr('src'),
         'class': 'larger',
         'z-index': 3
-    }).load(function () {
+    }).css('box-shadow', '0 0 6px 4px #000000')
+        .load(function () {
         $(this)
             .appendTo('body')
             .position({
