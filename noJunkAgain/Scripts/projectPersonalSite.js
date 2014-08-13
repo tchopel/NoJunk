@@ -39,3 +39,5 @@ $('body').on('click', '.personalSiteLarger', function () {
         $('#personalSiteMainDiv').parent().css('z-index', 1);
     });
 });
+
+$("#personalSiteAccordion").accordion();

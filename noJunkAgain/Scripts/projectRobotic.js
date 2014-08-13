@@ -45,5 +45,4 @@ $('video').on('play', function () {
 
 $('video').on('seeked', function () {
     this.playbackRate = 3.0;
-    alert('seeked');
 });

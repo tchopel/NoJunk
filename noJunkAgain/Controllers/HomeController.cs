@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using noJunkAgain.Models;
 
 namespace noJunkAgain.Controllers
 {
@@ -25,8 +26,19 @@ namespace noJunkAgain.Controllers
         }
 
 
-        public ActionResult Contact()
+        public ActionResult Contact(string message, string name, string email)
         {
+            messageContext userMessage = new messageContext();
+            if (!(message == null || name == null || email == null))
+            {
+                message singularMessage = new message();
+                singularMessage.email = email;
+                singularMessage.msg = message;
+                singularMessage.name = name;
+                userMessage.messages.Add(singularMessage);
+                userMessage.SaveChanges();
+            }
+           
             return View();
         }
 
