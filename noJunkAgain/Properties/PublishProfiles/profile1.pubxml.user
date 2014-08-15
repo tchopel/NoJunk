@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUPzunNB6cUispLsOSZXg2QAAAAACAAAAAAAQZgAAAAEAACAAAADOsSByvyEwKydibLLo3C2vkEis5zL9ivvnipOA7a0DRAAAAAAOgAAAAAIAACAAAAAXU0s5y18zbZIuA/mL/H1b7zLXlNPbZOpLBEPl3Q6+kCAAAAAO8vFeppFej8P3qJR9QMGHrkpl1iiLAPzJEvDnvCx6f0AAAADUEl+/ragqFLNUxavnBO5+TEylZPfhSWVAbDT2gYVs4NiAuAAwyWDFmI75I56l1OmDIym2dfaTYA8jN1iX8iIs</EncryptedPassword>
+    <_PublishTargetUrl>ftp://50.62.160.67/httpdocs</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/amd64/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/amd64/Microsoft.VC90.CRT/msvcr90.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/amd64/Microsoft.VC90.CRT/README_ENU.txt">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceca40.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlcecompact40.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceer40EN.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceme40.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceqp40.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlcese40.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/Css/jquery-ui-1.10.4.custom.css">
+      <publishTime>07/21/2014 19:19:53</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>08/12/2014 17:50:02</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>08/12/2014 17:50:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/21/2014 13:13:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>07/21/2014 13:13:50</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/21/2014 13:13:51</publishTime>
+    </File>
+    <File Include="bin/noJunkAgain.dll">
+      <publishTime>08/13/2014 20:05:36</publishTime>
+    </File>
+    <File Include="bin/System.Data.SqlServerCe.dll">
+      <publishTime>08/12/2014 17:52:46</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>07/21/2014 13:13:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>07/21/2014 13:13:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>07/21/2014 13:13:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>07/21/2014 13:13:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/21/2014 13:13:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/21/2014 13:13:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>07/21/2014 13:13:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>07/21/2014 13:13:50</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>07/21/2014 13:13:50</publishTime>
+    </File>
+    <File Include="bin/x86/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/x86/Microsoft.VC90.CRT/msvcr90.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/x86/Microsoft.VC90.CRT/README_ENU.txt">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceca40.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/x86/sqlcecompact40.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceer40EN.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceme40.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceqp40.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="bin/x86/sqlcese40.dll">
+      <publishTime>08/12/2014 17:52:48</publishTime>
+    </File>
+    <File Include="Css/Contacts.css">
+      <publishTime>07/25/2014 12:25:13</publishTime>
+    </File>
+    <File Include="Css/css/bootstrap-theme.css">
+      <publishTime>07/22/2014 21:21:16</publishTime>
+    </File>
+    <File Include="Css/css/bootstrap-theme.css.map">
+      <publishTime>07/22/2014 21:21:16</publishTime>
+    </File>
+    <File Include="Css/css/bootstrap-theme.min.css">
+      <publishTime>07/22/2014 21:21:16</publishTime>
+    </File>
+    <File Include="Css/css/bootstrap.css">
+      <publishTime>07/22/2014 21:21:16</publishTime>
+    </File>
+    <File Include="Css/css/bootstrap.css.map">
+      <publishTime>07/22/2014 21:21:16</publishTime>
+    </File>
+    <File Include="Css/css/bootstrap.min.css">
+      <publishTime>07/22/2014 21:21:16</publishTime>
+    </File>
+    <File Include="Css/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/22/2014 21:21:16</publishTime>
+    </File>
+    <File Include="Css/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/22/2014 21:21:16</publishTime>
+    </File>
+    <File Include="Css/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/22/2014 21:21:16</publishTime>
+    </File>
+    <File Include="Css/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/22/2014 21:21:16</publishTime>
+    </File>
+    <File Include="Css/images/animated-overlay.gif">
+      <publishTime>07/21/2014 19:22:59</publishTime>
+    </File>
+    <File Include="Css/images/cell.jpg">
+      <publishTime>07/25/2014 12:25:13</publishTime>
+    </File>
+    <File Include="Css/images/chatRoom.PNG">
+      <publishTime>08/10/2014 15:45:58</publishTime>
+    </File>
+    <File Include="Css/images/contact.png">
+      <publishTime>07/24/2014 18:43:01</publishTime>
+    </File>
+    <File Include="Css/images/DSC_0030.JPG">
+      <publishTime>08/06/2014 21:09:23</publishTime>
+    </File>
+    <File Include="Css/images/eclipseProject.PNG">
+      <publishTime>08/10/2014 11:19:52</publishTime>
+    </File>
+    <File Include="Css/images/facebookCAJ2LQD7.png">
+      <publishTime>07/25/2014 12:25:13</publishTime>
+    </File>
+    <File Include="Css/images/facebook_icon_30x30.gif">
+      <publishTime>07/24/2014 20:48:05</publishTime>
+    </File>
+    <File Include="Css/images/finalProject.png">
+      <publishTime>08/06/2014 21:09:35</publishTime>
+    </File>
+    <File Include="Css/images/javaCode.PNG">
+      <publishTime>08/10/2014 15:46:03</publishTime>
+    </File>
+    <File Include="Css/images/javaproj.PNG">
+      <publishTime>08/10/2014 11:19:52</publishTime>
+    </File>
+    <File Include="Css/images/javaProject.PNG">
+      <publishTime>08/10/2014 11:19:52</publishTime>
+    </File>
+    <File Include="Css/images/ln16.png">
+      <publishTime>07/24/2014 20:48:07</publishTime>
+    </File>
+    <File Include="Css/images/Mail_Icon_rot.png">
+      <publishTime>07/25/2014 12:25:13</publishTime>
+    </File>
+    <File Include="Css/images/myWorkStation.PNG">
+      <publishTime>08/10/2014 17:39:39</publishTime>
+    </File>
+    <File Include="Css/images/myWorkStationExported.PNG">
+      <publishTime>08/10/2014 17:38:31</publishTime>
+    </File>
+    <File Include="Css/images/onlytwochatwindow.PNG">
+      <publishTime>08/10/2014 11:19:52</publishTime>
+    </File>
+    <File Include="Css/images/phone_icon_small.png">
+      <publishTime>07/25/2014 12:25:13</publishTime>
+    </File>
+    <File Include="Css/images/scaledtafe1.PNG">
+      <publishTime>08/05/2014 15:56:25</publishTime>
+    </File>
+    <File Include="Css/images/scaledtafe2.PNG">
+      <publishTime>08/05/2014 15:56:25</publishTime>
+    </File>
+    <File Include="Css/images/spinSample.PNG">
+      <publishTime>08/11/2014 12:24:21</publishTime>
+    </File>
+    <File Include="Css/images/tafe1.PNG">
+      <publishTime>08/05/2014 12:26:45</publishTime>
+    </File>
+    <File Include="Css/images/tafe2.PNG">
+      <publishTime>08/05/2014 12:26:45</publishTime>
+    </File>
+    <File Include="Css/images/theFinalFinalVersion.png">
+      <publishTime>08/06/2014 21:09:44</publishTime>
+    </File>
+    <File Include="Css/images/Thumbs.db">
+      <publishTime>08/11/2014 12:24:22</publishTime>
+    </File>
+    <File Include="Css/images/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <publishTime>07/21/2014 19:22:59</publishTime>
+    </File>
+    <File Include="Css/images/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <publishTime>07/21/2014 19:22:59</publishTime>
+    </File>
+    <File Include="Css/images/ui-bg_flat_10_000000_40x100.png">
+      <publishTime>07/21/2014 19:22:59</publishTime>
+    </File>
+    <File Include="Css/images/ui-bg_glass_100_f6f6f6_1x400.png">
+      <publishTime>07/21/2014 19:22:59</publishTime>
+    </File>
+    <File Include="Css/images/ui-bg_glass_100_fdf5ce_1x400.png">
+      <publishTime>07/21/2014 19:22:59</publishTime>
+    </File>
+    <File Include="Css/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>07/21/2014 19:22:59</publishTime>
+    </File>
+    <File Include="Css/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <publishTime>07/21/2014 19:23:00</publishTime>
+    </File>
+    <File Include="Css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>07/21/2014 19:23:00</publishTime>
+    </File>
+    <File Include="Css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <publishTime>07/21/2014 19:23:00</publishTime>
+    </File>
+    <File Include="Css/images/ui-icons_222222_256x240.png">
+      <publishTime>07/21/2014 19:23:00</publishTime>
+    </File>
+    <File Include="Css/images/ui-icons_228ef1_256x240.png">
+      <publishTime>07/21/2014 19:23:00</publishTime>
+    </File>
+    <File Include="Css/images/ui-icons_ef8c08_256x240.png">
+      <publishTime>07/21/2014 19:23:00</publishTime>
+    </File>
+    <File Include="Css/images/ui-icons_ffd27a_256x240.png">
+      <publishTime>07/21/2014 19:23:00</publishTime>
+    </File>
+    <File Include="Css/images/ui-icons_ffffff_256x240.png">
+      <publishTime>07/21/2014 19:23:00</publishTime>
+    </File>
+    <File Include="Css/images/WIN_20140724_124634.JPG">
+      <publishTime>08/07/2014 19:18:05</publishTime>
+    </File>
+    <File Include="Css/Index.css">
+      <publishTime>08/14/2014 15:46:00</publishTime>
+    </File>
+    <File Include="Css/jquery-ui-1.10.4.custom.css">
+      <publishTime>07/21/2014 19:19:53</publishTime>
+    </File>
+    <File Include="Css/Portfolio.css">
+      <publishTime>08/02/2014 16:03:28</publishTime>
+    </File>
+    <File Include="Css/projectBell.css">
+      <publishTime>08/05/2014 12:26:45</publishTime>
+    </File>
+    <File Include="Css/projectRobotic.css">
+      <publishTime>08/14/2014 14:46:17</publishTime>
+    </File>
+    <File Include="Css/Resume.css">
+      <publishTime>07/28/2014 17:13:04</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/21/2014 13:13:49</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/12/2014 17:52:47</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>07/22/2014 21:20:27</publishTime>
+    </File>
+    <File Include="Scripts/Contacts.js">
+      <publishTime>08/14/2014 19:36:17</publishTime>
+    </File>
+    <File Include="Scripts/forNotes.js">
+      <publishTime>08/05/2014 12:26:45</publishTime>
+    </File>
+    <File Include="Scripts/Index.js">
+      <publishTime>08/14/2014 16:28:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>07/21/2014 19:19:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.js">
+      <publishTime>08/12/2014 17:50:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.min.js">
+      <publishTime>08/12/2014 17:50:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.min.map">
+      <publishTime>08/12/2014 17:50:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.10.4.custom.js">
+      <publishTime>07/21/2014 19:19:06</publishTime>
+    </File>
+    <File Include="Scripts/Portfolio.js">
+      <publishTime>08/02/2014 16:27:12</publishTime>
+    </File>
+    <File Include="Scripts/projectBell.js">
+      <publishTime>08/11/2014 12:24:21</publishTime>
+    </File>
+    <File Include="Scripts/projectChat.js">
+      <publishTime>08/11/2014 12:24:21</publishTime>
+    </File>
+    <File Include="Scripts/projectPersonalSite.js">
+      <publishTime>08/11/2014 14:20:43</publishTime>
+    </File>
+    <File Include="Scripts/projectRobotic.js">
+      <publishTime>08/11/2014 14:24:55</publishTime>
+    </File>
+    <File Include="Scripts/resume.js">
+      <publishTime>07/23/2014 19:31:11</publishTime>
+    </File>
+    <File Include="Scripts/slidr.js">
+      <publishTime>08/03/2014 11:53:48</publishTime>
+    </File>
+    <File Include="Scripts/slidr.min.js">
+      <publishTime>08/03/2014 11:53:48</publishTime>
+    </File>
+    <File Include="station2Converted.mp4">
+      <publishTime>08/09/2014 14:00:56</publishTime>
+    </File>
+    <File Include="station2Webm.webm">
+      <publishTime>08/10/2014 11:19:54</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>08/14/2014 18:25:31</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/14/2014 16:34:01</publishTime>
+    </File>
+    <File Include="Views/Home/Portfolio.cshtml">
+      <publishTime>08/01/2014 13:28:48</publishTime>
+    </File>
+    <File Include="Views/Home/projectBell.cshtml">
+      <publishTime>08/14/2014 15:36:19</publishTime>
+    </File>
+    <File Include="Views/Home/projectChat.cshtml">
+      <publishTime>08/11/2014 12:24:21</publishTime>
+    </File>
+    <File Include="Views/Home/projectPersonalSite.cshtml">
+      <publishTime>08/14/2014 15:43:51</publishTime>
+    </File>
+    <File Include="Views/Home/projectRobotic.cshtml">
+      <publishTime>08/14/2014 14:46:07</publishTime>
+    </File>
+    <File Include="Views/Home/Resume.cshtml">
+      <publishTime>07/22/2014 20:13:08</publishTime>
+    </File>
+    <File Include="Views/Home/Resume2.cshtml">
+      <publishTime>07/24/2014 18:37:04</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutPage1.cshtml">
+      <publishTime>08/03/2014 11:54:09</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>07/21/2014 13:13:49</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/14/2014 19:48:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

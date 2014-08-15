@@ -1,0 +1,97 @@
+﻿#bigContainer {
+    background-color: #1F6597 ;
+    width:100%;
+}
+
+#contactMe{
+    max-height:100%;
+    max-width:100%;
+}
+
+#listWithUnderline{
+    width:100%;
+    border-bottom:5px solid white;
+    color: #1F6597 ;
+    position:absolute;
+    list-style-type:none;
+    top:30px;
+    right:0;
+}
+
+.contactRow{
+    margin:40px;
+    padding:40px;
+}
+
+.text, .textarea{
+    width:100%;
+    max-width:100%;
+    margin-bottom:30px;
+    padding:5px;
+    border:8px solid #005585;
+}
+
+.textarea{
+    height:200px;
+}
+
+#sendButton{
+    float:right;
+    width: 65px;
+    background: #005585;
+    border: none;
+    padding: 5px 8px;
+    color: #B4F8F7;
+    font-family: "Trebuchet MS", Verdana, Sans-Serif;
+}
+
+.contactinfo{
+    list-style-type:none;
+    padding:0;
+}
+
+.contactinfo li{
+    margin-bottom:15px;
+    margin-top:15px;
+    padding-left:33px;
+    color:#C1DAFF;
+    height:28px;
+}
+
+.facebook {
+    background: url(./images/facebookCAJ2LQD7.png) no-repeat;
+}
+
+.linkedIn{
+    background:url(./images/ln16.png) no-repeat;
+}
+
+.cellPhone{
+    background:url(./images/cell.jpg) no-repeat;
+}
+
+.homePhone{
+    background:url(./images/phone_icon_small.png) no-repeat;
+}
+
+.email{
+    background:url(./images/Mail_Icon_rot.png) no-repeat;
+}
+
+label, .right{
+    font-family: "Trebuchet MS", Verdana, Sans-Serif;
+    color:#C1DAFF;
+}
+
+#facebook, #linkedIn, #email {
+    color: #C1DAFF !important; 
+}
+
+a:hover, a:focus {
+    color: #A67F59 !important; 
+    text-decoration:dashed;
+}
+
+#contactParagraph{
+    font-weight:bolder;
+}

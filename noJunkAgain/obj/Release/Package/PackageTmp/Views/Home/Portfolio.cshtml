@@ -1,0 +1,25 @@
+﻿<link href="~/Css/Portfolio.css" rel="stylesheet" />
+
+<div id="bootStrapContainer">
+    <div id="TheRow" class="row">
+        @*@Url.Action("projectRobotic", "Home", null, Request.Url.Scheme);*@
+        @*@{Html.RenderPartial("_projectChat");}*@
+        @*@{Html.RenderPartial(Url.Action("projectRobotic", "Home"));}*@
+
+
+        <div id="leftNav" class="col-xs-1">
+            <span class="ui-icon ui-icon-triangle-1-w"></span>
+        </div>
+        <div id="centerColumn" class="col-xs-10">
+            @{Html.RenderPartial("projectRobotic");}
+        </div>
+        <div id="rightNav" class="col-xs-1">
+            <span class="ui-icon ui-icon-triangle-1-e"></span>
+        </div>
+
+
+
+    </div>
+</div>
+
+    <script src="~/Scripts/Portfolio.js"></script>
