@@ -1,7 +1,9 @@
 ﻿$(function () {
     $("#tabs").tabs();
     var windowHeight = jQuery(window).height() * .94;
+    var windowWidth = jQuery(window).width();
     $('#slidr').css('min-height', windowHeight + 'px');
+    $('#tabs').css('min-width', windowWidth + 'px');
     //$('#slidr-home').css('max-Width', window.innerWidth + 'px');
     $('#javaScriptAppRepo').css('min-height', windowHeight + 'px');
 
