@@ -44,7 +44,7 @@ $("#contactform").on("submit", function (event) {
 });
 
 function creatParagraph(text) {
-    $('<p>hello there</p>', {
+    $('<p></p>', {
         'class': 'contactlarger',
         'z-index': 3
     }).css({
