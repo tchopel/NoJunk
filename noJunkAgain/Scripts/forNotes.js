@@ -73,4 +73,11 @@ To Do list
     </div>
 
 
+
+      <connectionStrings>
+    <add name="messageContext"
+         connectionString="Data Source=184.168.194.58;User ID=adminChopel;Password=Ranges5!;persist security info=False;initial catalog=personalSite;" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+
+
 */
