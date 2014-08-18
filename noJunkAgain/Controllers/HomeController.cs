@@ -14,19 +14,9 @@ namespace noJunkAgain.Controllers
         {
             return View();
         }
-         
-        public ActionResult Resume()
-        {
-            return View();
-        }
-
-        public ActionResult Resume2()
-        {
-            return View(); 
-        }
 
 
-        public ActionResult Contact(string message, string name, string email)
+        public string contactPost(string message, string name, string email)
         {
             messageContext userMessage = new messageContext();
             if (!(message == null || name == null || email == null))
@@ -38,33 +28,9 @@ namespace noJunkAgain.Controllers
                 userMessage.messages.Add(singularMessage);
                 userMessage.SaveChanges();
             }
-           
-            return View();
+
+            return "success";
         }
 
-        public ActionResult Portfolio()
-        {
-            return View();
-        }
-
-        public ActionResult projectBell()
-        {
-            return View();
-        }
-
-        public ActionResult projectChat()
-        {
-            return View();
-        }
-
-        public ActionResult projectRobotic()
-        {
-            return View();
-        }
-
-        public ActionResult projectPersonalSite()
-        {
-            return View();
-        }
     }
 }

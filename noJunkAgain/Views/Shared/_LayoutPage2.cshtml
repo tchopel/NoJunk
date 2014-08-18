@@ -1,0 +1,12 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>@Page.Title</title>
+                @RenderSection("head", required: false)
+        <script src="~/Scripts/angular.min.js"></script>
+    </head>
+    <body>
+        @RenderBody()
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

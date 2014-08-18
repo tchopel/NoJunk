@@ -12,24 +12,32 @@
             <a href="#slidr">PortFolio</a>
         </li>
         <li>
-            <a href="/Home/Resume2">Resume</a>
+            <a href="#resume">Resume</a>
         </li>
         <li>
-            <a href="/Home/Contact">Contacts</a>
+            <a href="#contact">Contacts</a>
         </li>
         <li>
             <a href="#javaScriptAppRepo">javaScript App Repo.</a>
         </li>
     </ul>
     
-        <div id="slidr">
-            <div id="slidr-home" class="demo-slides">
-                <div class="ui-corner-all" style="box-shadow: 0 0 6px 4px black; background-color: #69bfe9; " data-slidr="one">@{Html.RenderPartial("projectBell");}</div>
-                <div class="ui-corner-all" style="box-shadow: 0 0 6px 4px black; background-color: #69bfe9;" data-slidr="two">@{Html.RenderPartial("projectChat");}</div>
-                <div class="ui-corner-all" style="box-shadow: 0 0 6px 4px black; background-color: #69bfe9;" data-slidr="three">@{Html.RenderPartial("projectRobotic");}</div>
-                <div class="ui-corner-all" style="box-shadow: 0 0 6px 4px black; background-color: #69bfe9; " data-slidr="four">@{Html.RenderPartial("projectPersonalSite");}</div>
-            </div>
+    <div id="slidr">
+        <div id="slidr-home" class="demo-slides">
+            <div class="ui-corner-all" style="box-shadow: 0 0 6px 4px black; background-color: #69bfe9; " data-slidr="one">@{Html.RenderPartial("_projectBell");}</div>
+            <div class="ui-corner-all" style="box-shadow: 0 0 6px 4px black; background-color: #69bfe9;" data-slidr="two">@{Html.RenderPartial("_projectChat");}</div>
+            <div class="ui-corner-all" style="box-shadow: 0 0 6px 4px black; background-color: #69bfe9;" data-slidr="three">@{Html.RenderPartial("_projectRobotic");}</div>
+            <div class="ui-corner-all" style="box-shadow: 0 0 6px 4px black; background-color: #69bfe9; " data-slidr="four">@{Html.RenderPartial("_projectPersonalSite");}</div>
         </div>
+    </div>
+
+    <div id="resume" style=" background-color: #1F6597;">
+        @{Html.RenderPartial("_Resume2");}
+    </div>
+
+    <div id="contact" style=" background-color: #1F6597;">
+        @{Html.RenderPartial("_Contact");}
+    </div>
 
     <div id="javaScriptAppRepo" style=" background-color: #1F6597;">
         <h2 style="text-align:center;"> Work in Progress. i will start uploading different apps as soon as they become available. </h2>

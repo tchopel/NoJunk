@@ -37,7 +37,7 @@ $("#contactform").on("submit", function (event) {
         $('#message').val('');
         creatParagraph('Thank you for sending me message, i will get back to you as soon as i see the message');
 
-        $.post("/Home/Contact", {
+        $.post("/Home/contactPost", {
             name: nameVal,
             email: emailVal,
             message: messageVal

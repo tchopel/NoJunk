@@ -25,26 +25,34 @@
 
 $("#contactform").on("submit", function (event) {
     event.preventDefault();
-    var serializedForm = $("#contactform").serialize();
-    $.post("/Home/Contact", serializedForm)
-        .done(function (response) {
+    var nameVal = $('#name').val();
+    var emailVal = $('#Email').val();
+    var messageVal = $('#message').val();
 
-            if ($('#name').val() == '' || $('#name').val() == '' || $('#name').val() == '') {
-                creatParagraph('Atleast one of the field is not filled');
-            } else {
-                $('#name').val('');
-                $('#Email').val('');
-                $('#message').val('');
-                creatParagraph('Thank you for sending me message, i will get back to you as soon as i see the message')
-            }
+    if (nameVal == '' || emailVal == '' || messageVal == '') {
+        creatParagraph('Atleast one of the field is not filled');
+    } else {
+        $('#name').val('');
+        $('#Email').val('');
+        $('#message').val('');
+        creatParagraph('Thank you for sending me message, i will get back to you as soon as i see the message');
+
+        $.post("/Home/contactPost", {
+            name: nameVal,
+            email: emailVal,
+            message: messageVal
+        }).done(function (response) {
+            alert('post successful');
         })
-        .fail(function (xhr, status, error) { 
-            console.log(xhr + "   " + status + "    " + error);
-    });
+            .fail(function (xhr, status, error) {
+                console.log(xhr + "   " + status + "    " + error);
+            });
+    }
+
 });
 
 function creatParagraph(text) {
-    $('<p>hello there</p>', {
+    $('<p></p>', {
         'class': 'contactlarger',
         'z-index': 3
     }).css({
